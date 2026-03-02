@@ -364,9 +364,6 @@
 <body>
     <nav>
         <div class="nav-container">
-            <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
-                <span>Von Ryn</span>
-            </div>
             <div class="links">
                 <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a
                         href="index.html">Home</a></div>
@@ -400,22 +397,19 @@
                 </div>
                 <div class="about-text" data-aos="fade-left" data-aos-duration="1500">
                     <h2>Hello World!</h2>
-                    <p>Tenho 21 anos, Atualmente atuo como Suporte de TI há 10 meses. Possuo uma sólida base acadêmica, com 2,5 anos (5
-                        semestres) cursados em Ciências da Computação e atualmente no primeiro semestre de Análise e Desenvolvimento de
-                        Sistemas. Durante minha trajetória acadêmica, adquiri conhecimentos em linguagens como C, Java, Python, JavaScript e
-                        desenvolvimento web (HTML, CSS), além de estudos em ciência de dados, redes, lógica de programação e matemática e
-                        metodologias de gestão de projetos. Tenho experiências em diversos projetos pessoais, utilizando JavaScript e frameworks
-                        tanto para BackEnd quanto para FrontEnd. Busco oportunidades na área de desenvolvimento de software, atuando como
-                        Backend, Frontend ou Fullstack, onde posso aplicar meus conhecimentos.
+                    <p>Profissional de 22 anos com quase 2 anos de experiência como Suporte de TI e Desenvolvedor. Possui 5 semestres cursados em Ciências da Computação e atualmente estou no penúltimo semestre de Análise e Desenvolvimento de Sistemas.
+                    Conhecimentos em C, Java, Python e JavaScript, além de desenvolvimento web com HTML e CSS.
+                    Busca oportunidade na área de desenvolvimento de software como Backend, Frontend ou Fullstack, com foco em aplicar e expandir seus conhecimentos.
+                    </p>
                     <div class="stats">
                         <div class="stat-item" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="200"
                             onclick="showProjects()">
-                            <h3>5+</h3>
+                            <h3>8+</h3>
                             <p>Projetos</p>
                         </div>
                         <div class="stat-item" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="400"
                             onclick="showExperience()">
-                            <h3>3 Anos</h3>
+                            <h3>2 Anos</h3>
                             <p>Experiencia</p>
                         </div>
                     </div>
@@ -517,9 +511,21 @@
                     },
                     {
                         title: "Gerenciador de Tarefas",
-                        imame: "img/4.png",
+                        image: "img/4.png",
                         description: "Gerenciador de tarefas com registro e autenticação de usuários",
                         technologies: ["Python", "Flask"]
+                    },
+                    {
+                        title: "Gerador RPS",
+                        image: "img/5.png",
+                        description: "WebSite com interface simples com o gerador de RPS",
+                        technologies: ["Python", "DJango"]
+                    },
+                    {
+                        title: "Relatorio de Notas Tributadas",
+                        image: "img/6.png",
+                        description: "Relatorio simples onde retorna todas as notas tributadas e seus valores",
+                        technologies: ["Python", "FastAPI"]
                     }
                 ];
 
@@ -543,6 +549,12 @@
 
             function generateExperienceCards() {
                 const experiences = [
+                    {
+                        title: "Desenvolvedor de Software",
+                        company: "WebTrip Agencia de Turismo",
+                        period: "2025 - Present",
+                        description: "Desenvolvedor de software focado em integrações e projetos internos da empresa",
+                        },
                     {
                         title: "Suporte de TI",
                         company: "WebTrip Agencia de Turismo",
